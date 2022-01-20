@@ -11,31 +11,31 @@
   <h1>Iris Species Prediction</h1>
     <div class="row justify-content-md-center">
        <div class="ui small image", style="text-align: center">
-            {% if prediction_result == 0 %}
+            prediction_result == 0
 
                 <img src="{{url_for('static', filename='iris_setosa.jpg')}}" class="img-thumbnail" />
                 <p> Prediction is Iris Setosa </p>
-            {% endif %}
+            endif
         </div>
     </div>
 
     <div class="row justify-content-md-center">
         <div class="ui small image", style="text-align: center">
-            {% if prediction_result == 1 %}
+            if prediction_result == 1
 
                 <img src="{{url_for('static', filename='iris_versicolor.jpg')}}" class="img-thumbnail" />
                 <p> Prediction is Iris Versicolor </p>
-            {% endif %}
+            endif
         </div>
     </div>
 
     <div class="row justify-content-md-center">
         <div class="ui small image", style="text-align: center">
-            {% if prediction_result == 2 %}
+            if prediction_result == 2
 
                 <img src="{{url_for('static', filename='iris_virginica.jpg')}}" class="img-thumbnail" />
                 <p> Prediction is Iris Virginica </p>
-            {% endif %}
+            endif
         </div>
     </div>
 </div>
